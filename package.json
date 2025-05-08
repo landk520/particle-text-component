@@ -1,0 +1,35 @@
+{
+  "name": "particle-text-component",
+  "version": "1.0.0",
+  "description": "粒子文字效果",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack --mode production",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landk520/particle-text-component.git"
+  },
+  "author": "lwb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landk520/particle-text-component/issues"
+  },
+  "homepage": "https://github.com/landk520/particle-text-component#readme",
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1"
+  }
+}
